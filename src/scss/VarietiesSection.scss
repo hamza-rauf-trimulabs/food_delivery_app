@@ -1,4 +1,4 @@
-.account-section-container {
+.varieties-section-container {
   border: 1px solid black;
   display: flex;
   flex-direction: row;
@@ -6,11 +6,11 @@
   justify-content: space-evenly;
   height: 806.99px;
 
-  .create-account-image-div {
-    padding-left: 70px;
+  .varieties-section-image-div {
+    padding-right: 70px;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
   }
-  .create-account-text-div {
+  .varieties-section-text-div {
     font-family: "Montserrat";
     font-style: normal;
     h3 {

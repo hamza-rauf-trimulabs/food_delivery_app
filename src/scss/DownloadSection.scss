@@ -1,17 +1,22 @@
-.hero-section {
+.download-section {
   // position: relative;
   // width: 1440px;
   // border: 1px solid red;
   height: 719px;
-  background-image: url("../images/hero_image.png");
+  background-image: url("../images/download.png");
   /* Position and center the image to scale nicely on all screens */
   // background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  height: 616px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.Centre-Text {
+.download-section-Centre-Text-div {
   border: 1px solid blue;
   display: flex;
 
@@ -24,65 +29,36 @@
   align-items: center;
   color: white;
   // width: 100vw;
+  h2 {
+    border: 1px solid black;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    // margin-top: 73px;
+    max-width: 503px;
+  }
+  h4 {
+    border: 1px solid black;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    margin-top: 1px !important;
+    max-width: 840px;
+
+    // margin-top: 1px !important;
+    /* identical to box height, or 158% */
+
+    text-align: center;
+
+    letter-spacing: 0.2px;
+  }
 }
-h3.food-app {
-  border: 1px solid black;
-  // font-family: "Montserrat";
-  // font-style: normal;
-  // font-weight: 700;
-  // font-size: 24px;
-  // line-height: 36px;
-  // /* identical to box height, or 150% */
-  // // text-align: center;
-  // margin-top: 70px;
-  // // margin-bottom: 10px;
-  // letter-spacing: 0.2px;
 
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
-  margin-top: 73px;
-}
-
-.Centre-Text p {
-  border: 1px solid black;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  // font-size: 58px;
-  // // line-height: 80px;
-  // margin-top: 1px;
-  // margin-bottom: 15px;
-  // /* or 138% */
-  // text-align: center;
-  // letter-spacing: 0.2px;
-
-  max-width: 850px;
-  font-size: 58px;
-  text-align: center;
-  line-height: 80px;
-  font-size: 58px;
-  margin-top: 1px;
-}
-.Centre-Text h4 {
-  border: 1px solid black;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 50px;
-  margin-top: 1px !important;
-  max-width: 728px;
-
-  // margin-top: 1px !important;
-  /* identical to box height, or 158% */
-
-  text-align: center;
-
-  letter-spacing: 0.2px;
-}
-.button-container {
+.download-section-button-container {
   // border: 1px solid orange;
   // display: flex;
   // flex-direction: row;
@@ -101,7 +77,7 @@ h3.food-app {
   gap: 2%;
 }
 
-button {
+.download-section-button-container button {
   // margin-top: 1px;
   // margin-bottom: 1px;
   background-color: transparent;
@@ -109,7 +85,7 @@ button {
   border: 2px solid white;
   color: white;
   font-size: 22px;
-  border-radius: 30px;
+  border-radius: 10px;
   height: 68px;
   width: 236px;
   // transition-duration: 0.2s;

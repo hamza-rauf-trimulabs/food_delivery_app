@@ -1,13 +1,21 @@
 import React from "react";
-import Sigin from "../images/account_create.png";
+import CreateAccountImage from "../images/account_create.png";
 
 function AccountSection() {
   return (
-    <div className="account-section">
-      <div>
-        <img className="signin-image" src={Sigin} alt="Screens"></img>
+    <div className="account-section-container">
+      <div className="create-account-image-div">
+        <img
+          className="signin-image"
+          src={CreateAccountImage}
+          alt="Screens"
+        ></img>
       </div>
-      <div>{/* <h3></h3> */}</div>
+      <div className="create-account-text-div">
+        <h3>Create an account</h3>
+        <h2>Create/login to an existing account to get started</h2>
+        <h4>An account is created with your email and a desired password</h4>
+      </div>
     </div>
   );
 }

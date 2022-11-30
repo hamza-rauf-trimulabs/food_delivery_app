@@ -1,0 +1,24 @@
+.footer-section {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 160px;
+  .social-media-div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    // justify-content: space-evenly;
+    gap: 40px;
+  }
+  .para-div p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #5c5c5c;
+  }
+}

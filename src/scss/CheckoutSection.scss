@@ -1,4 +1,4 @@
-.account-section-container {
+.checkout-section-container {
   border: 1px solid black;
   display: flex;
   flex-direction: row;
@@ -6,11 +6,11 @@
   justify-content: space-evenly;
   height: 806.99px;
 
-  .create-account-image-div {
+  .checkout-image-div {
     padding-left: 70px;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
   }
-  .create-account-text-div {
+  .checkout-text-div {
     font-family: "Montserrat";
     font-style: normal;
     h3 {
