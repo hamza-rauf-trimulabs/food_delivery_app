@@ -4,11 +4,10 @@ function Divider() {
   return (
     <div className="image-container">
       <div>
-        {/* image-container dev */}
         <img className="img-phones" src={phones} alt="Screens" />
       </div>
-      <div className="line-break">
-        <hr />
+      <div className="line-break-div">
+        <hr className="line" />
         <p className="app-works-para">How the app works</p>
       </div>
     </div>

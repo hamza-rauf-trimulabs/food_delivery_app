@@ -6,7 +6,7 @@ import instagram from "../images/instagram.png";
 function FooterSection() {
   return (
     <div className="footer-section">
-      <div className="logo_div">
+      <div className="footer-logo-div">
         <img className="nav_image" src={logo} alt="logo" />
       </div>
       <div className="social-media-div">

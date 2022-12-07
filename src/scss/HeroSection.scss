@@ -8,11 +8,11 @@
   // background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  max-width: 100%;
 }
 
 .Centre-Text {
-  border: 1px solid blue;
+  // border: 1px solid blue;
   display: flex;
 
   // position: absolute;
@@ -26,17 +26,7 @@
   // width: 100vw;
 }
 h3.food-app {
-  border: 1px solid black;
-  // font-family: "Montserrat";
-  // font-style: normal;
-  // font-weight: 700;
-  // font-size: 24px;
-  // line-height: 36px;
-  // /* identical to box height, or 150% */
-  // // text-align: center;
-  // margin-top: 70px;
-  // // margin-bottom: 10px;
-  // letter-spacing: 0.2px;
+  // border: 1px solid black;
 
   font-style: normal;
   font-weight: 700;
@@ -46,17 +36,10 @@ h3.food-app {
 }
 
 .Centre-Text p {
-  border: 1px solid black;
+  // border: 1px solid black;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  // font-size: 58px;
-  // // line-height: 80px;
-  // margin-top: 1px;
-  // margin-bottom: 15px;
-  // /* or 138% */
-  // text-align: center;
-  // letter-spacing: 0.2px;
 
   max-width: 850px;
   font-size: 58px;
@@ -64,9 +47,10 @@ h3.food-app {
   line-height: 80px;
   font-size: 58px;
   margin-top: 1px;
+  padding-left: 10px;
 }
 .Centre-Text h4 {
-  border: 1px solid black;
+  // border: 1px solid black;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -74,26 +58,11 @@ h3.food-app {
   line-height: 50px;
   margin-top: 1px !important;
   max-width: 728px;
-
-  // margin-top: 1px !important;
-  /* identical to box height, or 158% */
-
   text-align: center;
 
   letter-spacing: 0.2px;
 }
 .button-container {
-  // border: 1px solid orange;
-  // display: flex;
-  // flex-direction: row;
-
-  // width: 600px;
-  // height: 68px;
-  // // border: 1px solid black;
-  // justify-content: space-around;
-  // // align-items: center;
-  // // padding-left: 20%;
-  // // padding-right: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,14 +89,124 @@ button {
   font-weight: 700;
   font-size: 24px;
 }
-// .btn1 {
-//   background-color: #fa4a0c;
-//   color: white;
-// }
 
 .btn1:hover {
   background-color: #fa4a0c;
   border-color: #fa4a0c;
   color: white;
   box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+}
+
+@media (max-width: 768px) and (min-width: 350px) {
+  .hero-section {
+    background-image: none;
+    width: 100%;
+    .Centre-Text {
+      // border: 1px solid blue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      font-family: "Montserrat";
+      font-style: normal;
+      // max-width: 100%;
+
+      h3 {
+        max-width: 80px;
+        height: 24px;
+
+        /* H5 */
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: 0.1px;
+
+        /* second text */
+
+        color: #737373;
+      }
+      p {
+        max-width: 391px;
+        height: 128px;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        /* or 118% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* text */
+
+        color: #252b42;
+      }
+      h4 {
+        max-width: 342px;
+        height: 76px;
+
+        /* H4 */
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        /* or 158% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* second text */
+
+        color: #737373;
+      }
+
+      .button-container {
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        // justify-content: space-around;
+        padding-top: 4px;
+        gap: 8px;
+        button {
+          // margin-top: 1px;
+          // margin-bottom: 1px;
+          background-color: transparent;
+          // border-color: white;
+          border: 2px solid orangered;
+          color: orangered;
+          font-size: 22px;
+          border-radius: 30px;
+          height: 68px;
+          width: 236px;
+          // transition-duration: 0.2s;
+          cursor: pointer;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+        }
+        button:hover {
+          background-color: #fa4a0c;
+          border-color: #fa4a0c;
+          color: white;
+          box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        }
+        .btn2 {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
 }

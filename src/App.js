@@ -20,9 +20,9 @@ import CheckoutSection from "./components/CheckoutSection";
 import DownloadSection from "./components/DownloadSection";
 import Footer from "./components/FooterSection";
 
-import CreateAccountImage from "./images/account_create.png";
-import VarietiesPng from "./images/varieties.png";
-import CheckoutSectionImage from "./images/checkout.png";
+import CreateAccountImage from "./images/account.png";
+import VarietiesPng from "./images/menu.png";
+import CheckoutSectionImage from "./images/payment.png";
 import Reusable from "./components/Reusable";
 import "./scss/Reusable.scss";
 

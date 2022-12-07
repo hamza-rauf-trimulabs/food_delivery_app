@@ -8,9 +8,20 @@ function DownloadSection() {
         <h4>
           Available on your favorite store. Start your premium experience now
         </h4>
+        <h4 className="mobile-view">Most calendars are designed for teams. </h4>
         <div className="download-section-button-container">
-          <button className="btn1">Playstore</button>
-          <button className="btn1">App store</button>
+          <button id="btn-mobile-hide" className="btn1">
+            Playstore
+          </button>
+          <button id="btn-mobile-hide" className="btn1">
+            App store
+          </button>
+          <button id="btn-mobile" className="btn1">
+            Buy Now
+          </button>
+          <button id="btn-mobile" className="btn1">
+            Try for Free
+          </button>
         </div>
       </div>
     </div>
