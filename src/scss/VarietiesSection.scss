@@ -5,7 +5,6 @@
   align-items: center;
   justify-content: space-evenly;
   height: 806.99px;
-
   .varieties-section-image-div {
     padding-right: 70px;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
@@ -17,34 +16,21 @@
       font-weight: 700;
       font-size: 24px;
       line-height: 36px;
-      /* identical to box height, or 150% */
-
       letter-spacing: 0.1px;
-
       color: #fa4a0c;
     }
     h2 {
       font-weight: 700;
       font-size: 40px;
       line-height: 57px;
-      /* or 142% */
-
       letter-spacing: 0.2px;
-
-      /* text */
-
       color: #252b42;
     }
     h4 {
       font-weight: 500;
       font-size: 24px;
       line-height: 38px;
-      /* or 158% */
-
       letter-spacing: 0.2px;
-
-      /* second text */
-
       color: #737373;
     }
   }

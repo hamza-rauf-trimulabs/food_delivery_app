@@ -1,7 +1,4 @@
 .download-section {
-  // position: relative;
-  // width: 1440px;
-  // border: 1px solid red;
   height: 719px;
   background-image: url("../images/download.png");
   /* Position and center the image to scale nicely on all screens */
@@ -17,30 +14,19 @@
 }
 
 .download-section-Centre-Text-div {
-  // border: 1px solid blue;
   display: flex;
-
-  // position: absolute;
-  // top: 45%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  // width: 100vw;
   h2 {
-    // border: 1px solid black;
-
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    // margin-top: 73px;
     max-width: 503px;
   }
   h4 {
-    // border: 1px solid black;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
@@ -48,12 +34,7 @@
     line-height: 50px;
     margin-top: 1px !important;
     max-width: 840px;
-
-    // margin-top: 1px !important;
-    /* identical to box height, or 158% */
-
     text-align: center;
-
     letter-spacing: 0.2px;
   }
   .mobile-view {
@@ -62,17 +43,6 @@
 }
 
 .download-section-button-container {
-  // border: 1px solid orange;
-  // display: flex;
-  // flex-direction: row;
-
-  // width: 600px;
-  // height: 68px;
-  // // border: 1px solid black;
-  // justify-content: space-around;
-  // // align-items: center;
-  // // padding-left: 20%;
-  // // padding-right: 20%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -85,17 +55,13 @@
 }
 
 .download-section-button-container button {
-  // margin-top: 1px;
-  // margin-bottom: 1px;
   background-color: transparent;
-  // border-color: white;
   border: 2px solid white;
   color: white;
   font-size: 22px;
   border-radius: 10px;
   height: 68px;
   width: 236px;
-  // transition-duration: 0.2s;
   cursor: pointer;
 
   font-family: "Montserrat";
@@ -103,11 +69,6 @@
   font-weight: 700;
   font-size: 24px;
 }
-// .btn1 {
-//   background-color: #fa4a0c;
-//   color: white;
-// }
-
 .btn1:hover {
   background-color: #fa4a0c;
   border-color: #fa4a0c;
@@ -121,27 +82,18 @@
     background: #252b42;
   }
   .download-section-Centre-Text-div {
-    // border: 1px solid blue;
     display: flex;
-
-    // position: absolute;
-    // top: 45%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 99%;
     color: white;
     h2 {
-      // border: 1px solid black;
       font-family: "Montserrat";
       font-style: normal;
       font-weight: 700;
       font-size: 40px;
       line-height: 57px;
-      // margin-top: 73px;
-      // max-width: 503px;
       text-align: center;
 
       width: 310px;
@@ -149,7 +101,6 @@
     }
     h4 {
       display: none;
-      // border: 1px solid black;
       font-family: "Montserrat";
       font-style: normal;
       font-weight: 500;
@@ -159,14 +110,8 @@
 
       text-align: center;
       letter-spacing: 0.2px;
-      // margin-top: 1px !important;
-      // max-width: 840px;
       width: 245px;
       height: 76px;
-
-      // margin-top: 1px !important;
-      /* identical to box height, or 158% */
-
       text-align: center;
 
       letter-spacing: 0.2px;
@@ -178,18 +123,13 @@
     .download-section-button-container {
       display: flex;
       align-items: center;
-      // justify-content: center;
       flex-direction: row;
-
-      // border: 1px solid blueviolet;
       width: 100%;
       #btn-mobile-hide {
         display: none;
       }
       #btn-mobile {
         display: block;
-        // width: 100%;
-        // width: 137px;
       }
     }
   }
